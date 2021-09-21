@@ -1,0 +1,12 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "deneme init",
+  "scripts": {
+    "api_tests": "newman run market_mentorship.postman_collection.json -r cli,htmlextra --reporter-htmlextra-export market.html -x -insecure"
+  },
+  "author": "carlos levo",
+  "dependencies": {
+    "newman": "^5.3.0"
+  }
+}
