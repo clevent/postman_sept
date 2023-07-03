@@ -73,11 +73,21 @@
 						"org"
 					],
 					"path": [
-						"post"
+						"post",
+						"delete"
 					]
 				}
 			},
-			"response": []
+			"response": [
+			"url": {
+					"raw": "httpbin.org/post",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]]
 		}
 	]
 }
